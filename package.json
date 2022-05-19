@@ -1,0 +1,34 @@
+{
+  "name": "deversibot",
+  "version": "0.0.1",
+  "description": "deversifi based market making bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "cross-env NODE_ENV=test nyc mocha",
+    "start": "cross-env NODE_ENV=dev node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Matas555/deversiBot.git"
+  },
+  "author": "Matt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Matas555/deversiBot/issues"
+  },
+  "homepage": "https://github.com/Matas555/deversiBot#readme",
+  "devDependencies": {
+    "chai": "4.2.0",
+    "mocha": "8.1.3",
+    "nyc": "15.1.0",
+    "eslint": "7.8.1",
+    "eslint-config-airbnb-base": "14.2.0",
+    "eslint-plugin-import": "2.22.0",
+    "eslint-plugin-mocha": "8.0.0"
+  },
+  "dependencies": {
+    "bignumber.js": "9.0.0",
+    "cross-env": "7.0.2",
+    "node-fetch": "2.6.1"
+  }
+}

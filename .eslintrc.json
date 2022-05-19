@@ -1,0 +1,70 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:mocha/recommended",
+    "plugin:import/errors",
+    "airbnb-base/rules/imports"
+  ],
+  "env": {
+    "node": true,
+    "es6": true,
+    "mocha": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2018
+  },
+  "globals": {},
+  "rules": {
+    "quotes": [
+      2,
+      "single"
+    ],
+    "global-strict": 0,
+    "strict": [
+      2,
+      "global"
+    ],
+    "no-shadow": 0,
+    "dot-notation": 0,
+    "no-native-reassign": 1,
+    "no-console": [
+      "error",
+      {
+        "allow": [
+          "warn",
+          "error",
+          "info"
+        ]
+      }
+    ],
+    "no-underscore-dangle": [
+      2,
+      {
+        "allow": [
+          "_id"
+        ]
+      }
+    ],
+    "linebreak-style": [
+      "error",
+      "windows"
+    ],
+    "require-atomic-updates": "off",
+    "no-extra-semi": "error",
+    "semi": [
+      "error",
+      "always"
+    ],
+    "semi-spacing": [
+      "error",
+      {
+        "before": false,
+        "after": true
+      }
+    ],
+    "semi-style": [
+      "error",
+      "last"
+    ]
+  }
+}
